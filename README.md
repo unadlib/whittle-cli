@@ -24,6 +24,18 @@ $ npm install
 $ gulp
 ```
 
+Use Option mode:
+
+``` bash
+$ whittle init
+```
+#### Option list:
+* Support mobile
+* Support IE8+
+* Export PHP Template
+* Import font-awesome
+* Import bootstrap
+
 ### Build HTML/CSS
 
 ``` bash
