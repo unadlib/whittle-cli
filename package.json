@@ -1,6 +1,6 @@
 {
   "name": "whittle-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI for scaffolding modular HTML/CSS projects based on Stylus and Pug(Jade) .",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/unadlib/whittle-cli.git"
+  },
+  "bin": {
+    "whittle": "bin/whittle"
   },
   "author": "unadlib",
   "license": "MIT",
