@@ -2,7 +2,8 @@
 logs
 *.log
 npm-debug.log*
-
+.idea
+.idea/*
 # Runtime data
 pids
 *.pid
@@ -35,3 +36,5 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+.idea/vcs.xml

@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+
+/**
+ * Author   : unadlib
+ * Date     : 2017/2/13
+ * Time     : 14:30
+ * Project [ whittle-cli ] Coded on WebStorm.
+ */
+
+'use strict';
+
+const commander = require('commander');
+const INFO = require('../package');
+const init = require('../lib/init');
+
+commander
+    .version(INFO.version)
+    .usage('<command> [options]');
+
+commander
+    .command('init')
+    .description('Generate a new whittle project.')
+    .alias('i')
+    .action(init);
+
+commander.parse(process.argv);
+
+if(!commander.args.length){
+    commander.help();
+}
