@@ -1,6 +1,6 @@
 {
   "name": "whittle-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple CLI for scaffolding modular HTML/CSS projects based on Stylus and Pug(Jade) .",
   "main": "index.js",
   "scripts": {
